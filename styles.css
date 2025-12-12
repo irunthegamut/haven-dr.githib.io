@@ -112,7 +112,7 @@ table {
             background-color: #f9f9f9; /* Zebra striping */
         }
 
-.nav-buttons {
+nav-buttons {
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -120,11 +120,11 @@ table {
     gap: 10px; /* Space between buttons */
 }
 
-.nav-buttons li {
+nav-buttons li {
     /* No styles needed here unless you want to add */
 }
 
-.nav-buttons a {
+nav-buttons a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007BFF; /* Button background color */
@@ -135,11 +135,11 @@ table {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
 }
 
-.nav-buttons a:hover {
+nav-buttons a:hover {
     background-color: #0056b3; /* Darker shade on hover */
 }
 
-.nav-buttons a:active {
+nav-buttons a:active {
     background-color: #003f7f; /* Even darker shade on click */
 }
 
