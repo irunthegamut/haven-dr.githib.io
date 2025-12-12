@@ -75,12 +75,12 @@ footer p {
     margin: 0;
 }
 
-center-iframe {
-    display: block;
-    margin: auto; /* Centers horizontally */
-    width: 600px; /* Must define a width */
-    height: 400px;
-  }
+responsive-iframe {
+    width: 100%;
+    height: auto; /* Height is calculated automatically based on the width and aspect ratio */
+    aspect-ratio: 16 / 9; /* Sets the proportional relationship (width / height) */
+    border: none;
+}
 
 table {
             width: 80%; /* Set the table width */
