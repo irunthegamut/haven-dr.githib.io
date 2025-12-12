@@ -112,6 +112,37 @@ table {
             background-color: #f9f9f9; /* Zebra striping */
         }
 
+.nav-buttons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+}
+
+.nav-buttons li {
+    /* No styles needed here unless you want to add */
+}
+
+.nav-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.nav-buttons a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.nav-buttons a:active {
+    background-color: #003f7f; /* Even darker shade on click */
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     nav ul li {
