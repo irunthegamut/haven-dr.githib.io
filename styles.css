@@ -75,11 +75,21 @@ footer p {
     margin: 0;
 }
 
-responsive-iframe {
-    width: 100%;
-    height: auto; /* Height is calculated automatically based on the width and aspect ratio */
-    aspect-ratio: 16 / 9; /* Sets the proportional relationship (width / height) */
-    border: none;
+iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+            height: 0;
+            overflow: hidden;
+}
+
+iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
 }
 
 table {
