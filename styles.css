@@ -75,6 +75,26 @@ footer p {
     margin: 0;
 }
 
+table {
+            width: 80%; /* Set the table width */
+            margin: 20px auto; /* Center the table */
+            border-collapse: collapse; /* Collapse table borders */
+        }
+
+        th, td {
+            border: 1px solid #ddd; /* Add borders to table cells */
+            padding: 10px; /* Add padding */
+            text-align: left; /* Align text left */
+        }
+
+        th {
+            background-color: #f2f2f2; /* Background color for header */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Zebra striping */
+        }
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     nav ul li {
