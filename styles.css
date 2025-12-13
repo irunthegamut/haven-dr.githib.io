@@ -129,7 +129,7 @@ table {
 .nav-buttons a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: ##06402B; /* Button background color */
+    background-color: #06402B; /* Button background color */
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
     border-radius: 5px; /* Rounded corners */
@@ -138,11 +138,11 @@ table {
 }
 
 .nav-buttons a:hover {
-    background-color: ##51A687; /* Darker shade on hover */
+    background-color: #51A687; /* Darker shade on hover */
 }
 
 .nav-buttons a:active {
-    background-color: ##96D9C0; /* Even darker shade on click */
+    background-color: #96D9C0; /* Even darker shade on click */
 }
 
 /* Responsive adjustments */
