@@ -14,7 +14,7 @@ header {
     background-image: url("havendr-b.png")
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 nav ul {
