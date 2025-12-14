@@ -148,6 +148,16 @@ table {
     background-color: #96D9C0; /* Even darker shade on click */
 }
 
+.row {
+  display: flex; /* Makes the child elements (columns) align in a row */
+}
+
+.column {
+  flex: 50%; /* Distributes available space equally between the columns (50% width each) */
+  padding: 10px; /* Optional: adds space inside the columns */
+  box-sizing: border-box; /* Ensures padding is included in the width calculation */
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     nav ul li {
